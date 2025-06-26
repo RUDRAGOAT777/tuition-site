@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduElite Tuition | Master Your Exams</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="/static/images/favicon.png">
+  <style>
+    @keyframes float {
+      0%,100% { transform: translateY(0); }
+      50%     { transform: translateY(-8px); }
+    }
+    .animate-float {
+      animation: float 4s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800 scroll-smooth">
+<body class="bg-white text-gray-800 scroll-smooth">
+
+  <!-- HEADER BAR -->
+  <header class="bg-blue-900 text-white">
+    <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+      <!-- Logo -->
+      <img src="/static/images/logo.png" alt="Logo" class="h-10">
+
+      <!-- Right side -->
+      <div class="flex items-center gap-6">
+        <a href="/signup" class="bg-white text-blue-900 px-4 py-2 rounded-lg font-semibold hover:bg-gray-100 transition">Sign Up</a>
+        <a href="/login" class="text-white font-semibold hover:underline">Log In</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Floating WhatsApp + Call CTA -->
+  <div class="fixed bottom-6 right-6 flex flex-col items-center gap-4 z-50">
+    <a href="https://wa.me/919999999999" target="_blank" class="bg-green-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-600">💬 WhatsApp</a>
+    <a href="tel:+919999999999" class="bg-blue-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-blue-700">📞 Call Now</a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-indigo-700 to-purple-700 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+      <div class="md:w-1/2">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">Result-Driven Tuition For Class 9–12 & Entrance Exams</h1>
+        <p class="mb-6 text-lg">Live classes, doubt support, top results — trusted by 1200+ students across India.</p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#contact" class="bg-white text-indigo-700 font-semibold px-6 py-3 rounded-xl hover:bg-indigo-100">📞 Get a Callback</a>
+          <a href="#contact" class="bg-yellow-400 text-gray-900 font-semibold px-6 py-3 rounded-xl hover:bg-yellow-300">🎓 Book Free Demo</a>
+        </div>
+      </div>
+      <div class="md:w-1/2 mt-10 md:mt-0">
+        <img src="/static/images/hero-graphic.png" alt="Tuition Illustration" class="w-full max-w-md mx-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Courses -->
+  <section class="py-16 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Our Top Programs</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Class 9–10 Foundation</h3>
+          <p class="mb-4">CBSE/ICSE aligned classes + concept mastery in Math & Science.</p>
+          <a href="#contact" class="text-indigo-600 font-medium hover:underline">Enroll Now →</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-bold mb-2">Class 11–12 JEE/NEET</h3>
+          <p class="mb-4">Crack competitive exams with expert mentors, mocks, and revision.</p>
+          <a href="#contact" class="text-indigo-600 font-medium hover:underline">Enroll Now →</a>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-lg">
+          <h3 class="text-xl font-bold mb-2">1-on-1 Personal Coaching</h3>
+          <p class="mb-4">Customized weekly goals, doubt sessions, and personal guidance.</p>
+          <a href="#contact" class="text-indigo-600 font-medium hover:underline">Enroll Now →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stickers Between Sections -->
+  <div class="relative my-8">
+    <img src="/static/images/sticker-program.svg"
+         alt=""
+         class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 opacity-80 animate-float pointer-events-none"/>
+  </div>
+
+  <!-- Testimonials -->
+  <section class="py-16 bg-indigo-50">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">What Our Students Say</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Testimonial 1 -->
+        <div class="bg-white p-6 rounded-2xl shadow-lg flex items-start gap-4">
+          <img src="/static/images/avika.jpg" alt="Avika Aggarwal" class="w-16 h-16 rounded-full object-cover mt-1">
+          <div>
+            <h3 class="text-lg font-bold">Avika Aggarwal</h3>
+            <p class="text-sm text-gray-600">NEET-UG, 2025</p>
+            <div class="w-8 h-1 bg-yellow-500 mt-1"></div>
+            <p class="mt-4 text-gray-700">"I went from 67% to 93% in 5 months. Their mentorship is gold."</p>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="bg-white p-6 rounded-2xl shadow-lg flex items-start gap-4">
+          <img src="/static/images/danish.jpg" alt="Danish" class="w-16 h-16 rounded-full object-cover mt-1">
+          <div>
+            <h3 class="text-lg font-bold">Danish</h3>
+            <p class="text-sm text-gray-600">NEET, 2024</p>
+            <div class="w-8 h-1 bg-yellow-500 mt-1"></div>
+            <p class="mt-4 text-gray-700">"Cleared NEET 2024 in first attempt with 642 marks. Highly recommend."</p>
+          </div>
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="bg-white p-6 rounded-2xl shadow-lg flex items-start gap-4">
+          <img src="/static/images/aayush.jpg" alt="Aayush" class="w-16 h-16 rounded-full object-cover mt-1">
+          <div>
+            <h3 class="text-lg font-bold">Aayush</h3>
+            <p class="text-sm text-gray-600">JEE, 2025</p>
+            <div class="w-8 h-1 bg-yellow-500 mt-1"></div>
+            <p class="mt-4 text-gray-700">"Best tuition investment I made. Got into NIT with 97.5 percentile."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Callback Form -->
+<section id="contact" class="py-16 bg-white relative">
+  <!-- Left sticker -->
+  <img src="/static/images/sticker-study.svg"
+       alt=""
+       class="absolute left-4 top-1/2 transform -translate-y-1/2 w-40 md:w-48 opacity-80 animate-float pointer-events-none"/>
+  <!-- Right sticker -->
+  <img src="/static/images/sticker-achieve.svg"
+       alt=""
+       class="absolute right-4 top-1/2 transform -translate-y-1/2 w-40 md:w-48 opacity-80 animate-float pointer-events-none"/>
+
+  <div class="max-w-3xl mx-auto px-6">
+    <div class="flex items-center justify-center gap-4 mb-8">
+      <h2 class="text-3xl font-bold">📞 Request a Callback</h2>
+    </div>
+    <form method="POST" action="/submit" class="grid gap-6" id="callbackForm">
+      <input type="text" name="name" placeholder="Full Name" required class="border p-3 rounded-xl w-full">
+      <input type="tel" name="phone" placeholder="Mobile Number" required class="border p-3 rounded-xl w-full">
+      <select name="class" required class="border p-3 rounded-xl w-full">
+        <option disabled selected>Select Class</option>
+        <option>Class 9</option>
+        <option>Class 10</option>
+        <option>Class 11</option>
+        <option>Class 12</option>
+      </select>
+      <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white py-3 rounded-xl text-lg font-semibold">📞 Submit Request</button>
+    </form>
+  </div>
+</section>
+
+<!-- ✅ MODAL BLOCK -->
+<div id="successModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+  <div class="bg-white p-6 rounded-xl shadow-xl max-w-sm text-center border border-green-500">
+    <div class="flex flex-col items-center">
+      <svg class="w-16 h-16 text-green-500 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+      </svg>
+      <h2 class="text-xl font-bold text-green-700">You will be called back shortly</h2>
+      <p class="text-sm text-gray-600 mt-2">Thanks for submitting your request.</p>
+      <button onclick="document.getElementById('successModal').classList.add('hidden')" class="mt-4 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg">
+        OK
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ✅ JS to handle modal trigger -->
+<script>
+  document.getElementById("callbackForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // prevent actual submit
+    document.getElementById("successModal").classList.remove("hidden");
+    this.reset(); // optional: clear fields
+  });
+</script>
+
+
+  <!-- FAQ Section -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <div class="border-2 border-gray-300 rounded-lg overflow-hidden">
+          <button class="w-full flex justify-between items-center px-4 py-3 text-xl font-semibold text-indigo-700 hover:bg-indigo-50" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+            What courses do you offer?
+            <svg class="w-6 h-6 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <p class="px-4 py-3 text-gray-700 hidden">We offer foundation courses for Class 9–10, intensive NEET/JEE prep for Class 11–12, and personalized one-on-one coaching.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-lg overflow-hidden">
+          <button class="w-full flex justify-between items-center px-4 py-3 text-xl font-semibold text-indigo-700 hover:bg-indigo-50" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+            How are classes conducted?
+            <svg class="w-6 h-6 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <p class="px-4 py-3 text-gray-700 hidden">All classes are live and interactive on our online platform, with real-time doubt-clearing sessions.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-lg overflow-hidden">
+          <button class="w-full flex justify-between items-center px-4 py-3 text-xl font-semibold text-indigo-700 hover:bg-indigo-50" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+            What is the fee structure?
+            <svg class="w-6 h-6 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <p class="px-4 py-3 text-gray-700 hidden">Foundation courses start at ₹5,000/month, and entrance exam prep starts at ₹10,000/month. Flexible payment plans are available.</p>
+        </div>
+        <div class="border-2 border-gray-300 rounded-lg overflow-hidden">
+          <button class="w-full flex justify-between items-center px-4 py-3 text-xl font-semibold text-indigo-700 hover:bg-indigo-50" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('svg').classList.toggle('rotate-180')">
+            Can I get a demo class?
+            <svg class="w-6 h-6 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          <p class="px-4 py-3 text-gray-700 hidden">Yes—book a free demo class via the “Book Free Demo” button at the top. No charges apply.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm">&copy; 2025 EduElite Tuition. All rights reserved.</p>
+      <div class="flex gap-6 mt-4 md:mt-0">
+        <a href="#" class="hover:underline text-sm">Privacy Policy</a>
+        <a href="#" class="hover:underline text-sm">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
